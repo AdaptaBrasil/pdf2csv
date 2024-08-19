@@ -2,7 +2,7 @@
 from argparse import ArgumentParser
 import tabula
 from glob import glob
-#"D:\temp\pdf\lista_A_agosto.pdf"
+
 def process_command_line():
     parser = ArgumentParser(description="Importar dados BDF.")
     parser.add_argument("--input_folder", type=str, required=True,  help="Caminho para a pasta de entrada.")
